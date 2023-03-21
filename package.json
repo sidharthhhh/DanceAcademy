@@ -1,0 +1,23 @@
+{
+  "name": "danceacademy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidharthhhh/DanceAcademy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidharthhhh/DanceAcademy/issues"
+  },
+  "homepage": "https://github.com/sidharthhhh/DanceAcademy#readme",
+  "dependencies": {
+    "@material/button": "^14.0.0",
+    "@material/ripple": "^14.0.0"
+  }
+}
