@@ -21,6 +21,9 @@
     "@emotion/styled": "^11.10.6",
     "@material/button": "^14.0.0",
     "@material/ripple": "^14.0.0",
-    "@mui/material": "^5.11.13"
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "styled-components": "^5.3.9"
   }
 }
