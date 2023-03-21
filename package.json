@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/sidharthhhh/DanceAcademy#readme",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@material/button": "^14.0.0",
-    "@material/ripple": "^14.0.0"
+    "@material/ripple": "^14.0.0",
+    "@mui/material": "^5.11.13"
   }
 }
