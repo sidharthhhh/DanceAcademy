@@ -14,7 +14,7 @@ body {
 }
 .main {
   width: 100%;
-  height: 300vh;
+  height: 200vh;
   background-color: aquamarine;
 }
 
@@ -76,36 +76,118 @@ body {
 Hero and Service Section Start
 ======================================= */
 .section-hero {
-  /* padding: 9.6rem 0; */
+  max-width: 100%;
   background-color: #a5d8ff;
   height: 100vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+}
+.carousel-item{
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
 }
 .w-100 {
   height: 100vh;
   width: 100vw !important;
   object-fit: cover;
-  object-position: center;
+  /* object-position: center; */
 }
-.section-services {
-  /* padding: 9.6rem 0; */
-  background-color: #a5d8ff;
+/* .iframe{
+  display: block;
+  width: 50vw;
+  height: 40vw;
+  /* position: absolute; */
+  /* top: 10%;/ 
+} */
+.content{
+  width: 100%;
   height: 100vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  background-image: url(/assests/images/katak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content h1{
+  font-size: 3rem;
+  /* z-index: 99; */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 10vw;
+  color: black;
+  text-align: center;
 }
 
-.section-services {
-  background: #f3f0ff;
+.content .explore{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 20px;
+  transition: ease 0.5s;
 }
+.content .explore:hover{
+  color: green;
+  background-color: white;
+}
+.content1{
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  
+}
+.left1{
+  width: 50%;
+  height: 100%;
+  background-color: #a5d8ff;
+}
+.right1{
+  width: 50%;
+  height: 100%;
+  background-color: pink;
+  position: relative;
+}
+.right1 h1{
+  font-size: 3rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.right1 p{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content1 .contactUs{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  top: 44%;
+  left: 35%;
+  transform: translate(-50%, 50%);
+  border-radius: 20px;
+}
+ 
 
-.section-hero p,
-.section-services p {
-  font-size: 3.2rem;
-}
 
 /* ===========================================
 Responsive Codes.. 
@@ -190,6 +272,7 @@ Responsive Codes..
 /* Below 560px  */
 @media (max-width: 35em) {
   .header {
+
     padding: 0 2.4rem;
   }
 
@@ -206,4 +289,29 @@ Responsive Codes..
   .mobile-navbar-btn{
     background-color: white;
   }
+  .content1{
+    flex-direction: column;
+  }
+  .left1{
+    width: 100%;
+    height: 30%;
+  }
+  .right1{
+    width: 100%;
+    height: 70%;
+  }
+  .content .explore{
+  top: 65%;
+}
+.right1 h1{
+ top: 20%; 
+}
+.right1 p{
+   top: 40%;
+ }
+.content1 .contactUs{
+top: 50%; 
+left: 40%;
+}
+ 
 }
